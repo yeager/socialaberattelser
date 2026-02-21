@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Social Stories
+Name[sv]=Sociala Berättelser
+GenericName=Social Stories
+GenericName[sv]=Sociala Berättelser
+Comment=Create and view social stories with images for autism
+Comment[sv]=Skapa och visa sociala berättelser med bilder för autism
+Exec=socialaberattelser
+Icon=se.danielnylander.socialaberattelser
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;Accessibility;
+Keywords=social;stories;autism;communication;
+Keywords[sv]=sociala;berättelser;autism;kommunikation;

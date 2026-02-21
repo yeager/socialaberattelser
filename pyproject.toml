@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "socialaberattelser"
+version = "0.1.0"
+description = "Create and view social stories with images for autism"
+license = "GPL-3.0-or-later"
+
+[tool.setuptools.packages.find]
+where = ["."]

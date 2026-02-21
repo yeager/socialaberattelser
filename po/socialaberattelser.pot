@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the socialaberattelser package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: socialaberattelser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-21 15:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: socialaberattelser/export.py:13 socialaberattelser/main.py:90
+#: socialaberattelser/main.py:158 socialaberattelser/main.py:167
+#: socialaberattelser/main.py:318
+msgid "Social Stories"
+msgstr ""
+
+#: socialaberattelser/export.py:95
+msgid "Export"
+msgstr ""
+
+#: socialaberattelser/export.py:95
+msgid "Choose export format:"
+msgstr ""
+
+#: socialaberattelser/export.py:96 socialaberattelser/main.py:284
+msgid "Cancel"
+msgstr ""
+
+#: socialaberattelser/export.py:97
+msgid "CSV"
+msgstr ""
+
+#: socialaberattelser/export.py:98
+msgid "JSON"
+msgstr ""
+
+#: socialaberattelser/export.py:99
+msgid "PDF"
+msgstr ""
+
+#: socialaberattelser/export.py:111
+msgid "Save Export"
+msgstr ""
+
+#: socialaberattelser/export.py:132
+#, python-format
+msgid "Exported %s"
+msgstr ""
+
+#: socialaberattelser/export.py:135
+#, python-format
+msgid "Export error: %s"
+msgstr ""
+
+#: socialaberattelser/main.py:34
+msgid "Going to the Dentist"
+msgstr ""
+
+#: socialaberattelser/main.py:36
+msgid "Today I am going to the dentist."
+msgstr ""
+
+#: socialaberattelser/main.py:37
+msgid "In the waiting room, I sit and wait for my turn."
+msgstr ""
+
+#: socialaberattelser/main.py:38
+msgid "The dentist will look at my teeth."
+msgstr ""
+
+#: socialaberattelser/main.py:39
+msgid "I open my mouth wide."
+msgstr ""
+
+#: socialaberattelser/main.py:40
+msgid "It might feel strange but it doesn't hurt."
+msgstr ""
+
+#: socialaberattelser/main.py:41
+msgid "When it's done, I can be proud of myself!"
+msgstr ""
+
+#: socialaberattelser/main.py:45
+msgid "First Day of School"
+msgstr ""
+
+#: socialaberattelser/main.py:47
+msgid "Today is my first day at a new school."
+msgstr ""
+
+#: socialaberattelser/main.py:48
+msgid "I will meet my new teacher."
+msgstr ""
+
+#: socialaberattelser/main.py:49
+msgid "There will be other children in my class."
+msgstr ""
+
+#: socialaberattelser/main.py:50
+msgid "I can say hello and tell them my name."
+msgstr ""
+
+#: socialaberattelser/main.py:51
+msgid "If I feel nervous, I can take a deep breath."
+msgstr ""
+
+#: socialaberattelser/main.py:52
+msgid "It's okay to feel a little scared. It will get better!"
+msgstr ""
+
+#: socialaberattelser/main.py:56
+msgid "Visiting the Supermarket"
+msgstr ""
+
+#: socialaberattelser/main.py:58
+msgid "We are going to the supermarket to buy food."
+msgstr ""
+
+#: socialaberattelser/main.py:59
+msgid "There might be many people and loud sounds."
+msgstr ""
+
+#: socialaberattelser/main.py:60
+msgid "I can stay close to my parent."
+msgstr ""
+
+#: socialaberattelser/main.py:61
+msgid "I can help by holding the shopping list."
+msgstr ""
+
+#: socialaberattelser/main.py:62
+msgid "If it gets too noisy, I can cover my ears or use headphones."
+msgstr ""
+
+#: socialaberattelser/main.py:63
+msgid "After shopping, we go home. Good job!"
+msgstr ""
+
+#: socialaberattelser/main.py:102
+msgid "Export (Ctrl+E)"
+msgstr ""
+
+#: socialaberattelser/main.py:107 socialaberattelser/main.py:280
+msgid "New Story"
+msgstr ""
+
+#: socialaberattelser/main.py:108
+msgid "Export Stories"
+msgstr ""
+
+#: socialaberattelser/main.py:109
+msgid "About Social Stories"
+msgstr ""
+
+#: socialaberattelser/main.py:110
+msgid "Quit"
+msgstr ""
+
+#: socialaberattelser/main.py:171
+msgid "Visual stories that help prepare for new situations"
+msgstr ""
+
+#: socialaberattelser/main.py:183 socialaberattelser/main.py:192
+#, python-format
+msgid "%d steps"
+msgstr ""
+
+#: socialaberattelser/main.py:200
+msgid "Create New Story"
+msgstr ""
+
+#: socialaberattelser/main.py:216
+msgid "← Back to stories"
+msgstr ""
+
+#: socialaberattelser/main.py:243
+msgid "← Previous"
+msgstr ""
+
+#: socialaberattelser/main.py:248
+msgid "Next →"
+msgstr ""
+
+#: socialaberattelser/main.py:280
+msgid "Enter a title for your story:"
+msgstr ""
+
+#: socialaberattelser/main.py:282
+msgid "Story title"
+msgstr ""
+
+#: socialaberattelser/main.py:285
+msgid "Create"
+msgstr ""
+
+#: socialaberattelser/main.py:293
+msgid "Step 1 — edit this text"
+msgstr ""
+
+#: socialaberattelser/main.py:297
+#, python-format
+msgid "Story created: %s"
+msgstr ""
+
+#: socialaberattelser/main.py:325
+msgid "Create and view social stories for children with autism"
+msgstr ""
