@@ -1,8 +1,10 @@
 [Desktop Entry]
 Type=Application
 Name=Social Stories
+Name[sv]=Sociala berättelser
 GenericName=Create visual social stories
 Comment=Create visual social stories
+Comment[sv]=Steg-för-steg sociala berättelser
 Exec=socialaberattelser
 Icon=socialaberattelser
 Terminal=false
