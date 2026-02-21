@@ -1,4 +1,4 @@
-"""Sociala Berättelser - Create and read social stories."""
+"""Sociala berättelser - Create and read social stories."""
 import sys, os, json, gettext, locale
 import gi
 gi.require_version('Gtk', '4.0')
