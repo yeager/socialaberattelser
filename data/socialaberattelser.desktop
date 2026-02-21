@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Social Stories
+GenericName=Create visual social stories
+Comment=Create visual social stories
+Exec=socialaberattelser
+Icon=socialaberattelser
+Terminal=false
+Categories=Education;Accessibility;
+Keywords=autism;adhd;accessibility;children;
