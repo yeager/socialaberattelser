@@ -1,126 +1,154 @@
-# Translation template for socialaberattelser
-# Copyright (C) 2026 Daniel Nylander
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: socialaberattelser 0.1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 16:28+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: source
 msgid "%d steps"
 msgstr ""
 
+#: source
 msgid "About Social Stories"
 msgstr ""
 
+#: source
 msgid "Add"
 msgstr ""
 
+#: source
 msgid "After school, I go home."
 msgstr ""
 
+#: source
 msgid "At school, I say hello to my teacher."
 msgstr ""
 
+#: source
 msgid "Cancel"
 msgstr ""
 
+#: source
 msgid "Date"
 msgstr ""
 
+#: source
 msgid "Details"
 msgstr ""
 
+#: source
 msgid "Enter story title:"
 msgstr ""
 
+#: source
 msgid "Export"
 msgstr ""
 
+#: source
 msgid "First step..."
 msgstr ""
 
+#: source
 msgid "Going to School"
 msgstr ""
 
+#: source
 msgid "I ask: Can I play with you?"
 msgstr ""
 
+#: source
 msgid "I get dressed and eat breakfast."
 msgstr ""
 
+#: source
 msgid "I see someone playing alone."
 msgstr ""
 
+#: source
 msgid "I sit at my desk and listen."
 msgstr ""
 
+#: source
 msgid "I take my bag and go to school."
 msgstr ""
 
+#: source
 msgid "I wake up in the morning."
 msgstr ""
 
+#: source
 msgid "I walk over and say hello."
 msgstr ""
 
+#: source
 msgid "It might feel a little strange but it is okay."
 msgstr ""
 
+#: source
 msgid "Making a Friend"
 msgstr ""
 
+#: source
 msgid "New Story"
 msgstr ""
 
+#: source
 msgid "Next"
 msgstr ""
 
+#: source
 msgid "Now I have a new friend!"
 msgstr ""
 
+#: source
 msgid "Previous"
 msgstr ""
 
+#: source
 msgid "Quit"
 msgstr ""
 
+#: source
 msgid "Result"
 msgstr ""
 
+#: source
 msgid "Social Stories"
 msgstr ""
 
+#: source
 msgid "Step %d of %d"
 msgstr ""
 
+#: source
 msgid "The doctor is a nice person who helps me stay healthy."
 msgstr ""
 
+#: source
 msgid "The doctor might look in my ears and mouth."
 msgstr ""
 
+#: source
 msgid "Today I am going to the doctor."
 msgstr ""
 
+#: source
 msgid "Toggle dark/light theme"
 msgstr ""
 
+#: source
 msgid "Visiting the Doctor"
 msgstr ""
 
+#: source
 msgid "We play together and have fun."
 msgstr ""
 
+#: source
 msgid "When we are done, I can go home."
 msgstr ""
 
+#: source
 msgid "e.g. Going to the Store"
 msgstr ""
