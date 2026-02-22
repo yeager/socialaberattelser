@@ -23,3 +23,10 @@ GPL-3.0
 ## Author
 
 Daniel Nylander — [danielnylander.se](https://danielnylander.se)
+
+## Screenshots
+
+![socialaberattelser (English)](screenshots/socialaberattelser_en.png)
+
+![socialaberattelser (Svenska)](screenshots/socialaberattelser_sv.png)
+
