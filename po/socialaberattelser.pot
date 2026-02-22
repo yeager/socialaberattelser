@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the socialaberattelser package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: socialaberattelser\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 06:01+0100\n"
+"POT-Creation-Date: 2026-02-22 17:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,208 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/socialaberattelser/export.py:11 src/socialaberattelser/main.py:104
-#: src/socialaberattelser/main.py:117 src/socialaberattelser/main.py:129
+#: socialaberattelser/export.py:13 socialaberattelser/main.py:90
+#: socialaberattelser/main.py:158 socialaberattelser/main.py:167
+#: socialaberattelser/main.py:318 src/socialaberattelser/export.py:11
+#: src/socialaberattelser/main.py:105 src/socialaberattelser/main.py:118
+#: src/socialaberattelser/main.py:130
 msgid "Social Stories"
+msgstr ""
+
+#: socialaberattelser/export.py:95 src/socialaberattelser/export.py:45
+#: src/socialaberattelser/main.py:134
+msgid "Export"
+msgstr ""
+
+#: socialaberattelser/export.py:95
+msgid "Choose export format:"
+msgstr ""
+
+#: socialaberattelser/export.py:96 socialaberattelser/main.py:284
+#: src/socialaberattelser/main.py:248
+msgid "Cancel"
+msgstr ""
+
+#: socialaberattelser/export.py:97
+msgid "CSV"
+msgstr ""
+
+#: socialaberattelser/export.py:98
+msgid "JSON"
+msgstr ""
+
+#: socialaberattelser/export.py:99
+msgid "PDF"
+msgstr ""
+
+#: socialaberattelser/export.py:111
+msgid "Save Export"
+msgstr ""
+
+#: socialaberattelser/export.py:132
+#, python-format
+msgid "Exported %s"
+msgstr ""
+
+#: socialaberattelser/export.py:135
+#, python-format
+msgid "Export error: %s"
+msgstr ""
+
+#: socialaberattelser/main.py:34
+msgid "Going to the Dentist"
+msgstr ""
+
+#: socialaberattelser/main.py:36
+msgid "Today I am going to the dentist."
+msgstr ""
+
+#: socialaberattelser/main.py:37
+msgid "In the waiting room, I sit and wait for my turn."
+msgstr ""
+
+#: socialaberattelser/main.py:38
+msgid "The dentist will look at my teeth."
+msgstr ""
+
+#: socialaberattelser/main.py:39
+msgid "I open my mouth wide."
+msgstr ""
+
+#: socialaberattelser/main.py:40
+msgid "It might feel strange but it doesn't hurt."
+msgstr ""
+
+#: socialaberattelser/main.py:41
+msgid "When it's done, I can be proud of myself!"
+msgstr ""
+
+#: socialaberattelser/main.py:45
+msgid "First Day of School"
+msgstr ""
+
+#: socialaberattelser/main.py:47
+msgid "Today is my first day at a new school."
+msgstr ""
+
+#: socialaberattelser/main.py:48
+msgid "I will meet my new teacher."
+msgstr ""
+
+#: socialaberattelser/main.py:49
+msgid "There will be other children in my class."
+msgstr ""
+
+#: socialaberattelser/main.py:50
+msgid "I can say hello and tell them my name."
+msgstr ""
+
+#: socialaberattelser/main.py:51
+msgid "If I feel nervous, I can take a deep breath."
+msgstr ""
+
+#: socialaberattelser/main.py:52
+msgid "It's okay to feel a little scared. It will get better!"
+msgstr ""
+
+#: socialaberattelser/main.py:56
+msgid "Visiting the Supermarket"
+msgstr ""
+
+#: socialaberattelser/main.py:58
+msgid "We are going to the supermarket to buy food."
+msgstr ""
+
+#: socialaberattelser/main.py:59
+msgid "There might be many people and loud sounds."
+msgstr ""
+
+#: socialaberattelser/main.py:60
+msgid "I can stay close to my parent."
+msgstr ""
+
+#: socialaberattelser/main.py:61
+msgid "I can help by holding the shopping list."
+msgstr ""
+
+#: socialaberattelser/main.py:62
+msgid "If it gets too noisy, I can cover my ears or use headphones."
+msgstr ""
+
+#: socialaberattelser/main.py:63
+msgid "After shopping, we go home. Good job!"
+msgstr ""
+
+#: socialaberattelser/main.py:102
+msgid "Export (Ctrl+E)"
+msgstr ""
+
+#: socialaberattelser/main.py:107 socialaberattelser/main.py:280
+#: src/socialaberattelser/main.py:153 src/socialaberattelser/main.py:245
+msgid "New Story"
+msgstr ""
+
+#: socialaberattelser/main.py:108
+msgid "Export Stories"
+msgstr ""
+
+#: socialaberattelser/main.py:109 src/socialaberattelser/main.py:135
+msgid "About Social Stories"
+msgstr ""
+
+#: socialaberattelser/main.py:110 src/socialaberattelser/main.py:136
+msgid "Quit"
+msgstr ""
+
+#: socialaberattelser/main.py:171
+msgid "Visual stories that help prepare for new situations"
+msgstr ""
+
+#: socialaberattelser/main.py:183 socialaberattelser/main.py:192
+#: src/socialaberattelser/main.py:213
+#, python-format
+msgid "%d steps"
+msgstr ""
+
+#: socialaberattelser/main.py:200
+msgid "Create New Story"
+msgstr ""
+
+#: socialaberattelser/main.py:216
+msgid "← Back to stories"
+msgstr ""
+
+#: socialaberattelser/main.py:243
+msgid "← Previous"
+msgstr ""
+
+#: socialaberattelser/main.py:248
+msgid "Next →"
+msgstr ""
+
+#: socialaberattelser/main.py:280
+msgid "Enter a title for your story:"
+msgstr ""
+
+#: socialaberattelser/main.py:282
+msgid "Story title"
+msgstr ""
+
+#: socialaberattelser/main.py:285
+msgid "Create"
+msgstr ""
+
+#: socialaberattelser/main.py:293
+msgid "Step 1 — edit this text"
+msgstr ""
+
+#: socialaberattelser/main.py:297
+#, python-format
+msgid "Story created: %s"
+msgstr ""
+
+#: socialaberattelser/main.py:325
+msgid "Create and view social stories for children with autism"
 msgstr ""
 
 #: src/socialaberattelser/export.py:23
@@ -34,149 +233,124 @@ msgstr ""
 msgid "Result"
 msgstr ""
 
-#: src/socialaberattelser/export.py:45 src/socialaberattelser/main.py:133
-msgid "Export"
-msgstr ""
-
-#: src/socialaberattelser/main.py:24
+#: src/socialaberattelser/main.py:25
 msgid "Going to School"
 msgstr ""
 
-#: src/socialaberattelser/main.py:25
+#: src/socialaberattelser/main.py:26
 msgid "I wake up in the morning."
 msgstr ""
 
-#: src/socialaberattelser/main.py:26
+#: src/socialaberattelser/main.py:27
 msgid "I get dressed and eat breakfast."
 msgstr ""
 
-#: src/socialaberattelser/main.py:27
+#: src/socialaberattelser/main.py:28
 msgid "I take my bag and go to school."
 msgstr ""
 
-#: src/socialaberattelser/main.py:28
+#: src/socialaberattelser/main.py:29
 msgid "At school, I say hello to my teacher."
 msgstr ""
 
-#: src/socialaberattelser/main.py:29
+#: src/socialaberattelser/main.py:30
 msgid "I sit at my desk and listen."
 msgstr ""
 
-#: src/socialaberattelser/main.py:30
+#: src/socialaberattelser/main.py:31
 msgid "After school, I go home."
 msgstr ""
 
-#: src/socialaberattelser/main.py:32
+#: src/socialaberattelser/main.py:33
 msgid "Visiting the Doctor"
 msgstr ""
 
-#: src/socialaberattelser/main.py:33
+#: src/socialaberattelser/main.py:34
 msgid "Today I am going to the doctor."
 msgstr ""
 
-#: src/socialaberattelser/main.py:34
+#: src/socialaberattelser/main.py:35
 msgid "The doctor is a nice person who helps me stay healthy."
 msgstr ""
 
-#: src/socialaberattelser/main.py:35
+#: src/socialaberattelser/main.py:36
 msgid "The doctor might look in my ears and mouth."
 msgstr ""
 
-#: src/socialaberattelser/main.py:36
+#: src/socialaberattelser/main.py:37
 msgid "It might feel a little strange but it is okay."
 msgstr ""
 
-#: src/socialaberattelser/main.py:37
+#: src/socialaberattelser/main.py:38
 msgid "When we are done, I can go home."
 msgstr ""
 
-#: src/socialaberattelser/main.py:39
+#: src/socialaberattelser/main.py:40
 msgid "Making a Friend"
 msgstr ""
 
-#: src/socialaberattelser/main.py:40
+#: src/socialaberattelser/main.py:41
 msgid "I see someone playing alone."
 msgstr ""
 
-#: src/socialaberattelser/main.py:41
+#: src/socialaberattelser/main.py:42
 msgid "I walk over and say hello."
 msgstr ""
 
-#: src/socialaberattelser/main.py:42
+#: src/socialaberattelser/main.py:43
 msgid "I ask: Can I play with you?"
 msgstr ""
 
-#: src/socialaberattelser/main.py:43
+#: src/socialaberattelser/main.py:44
 msgid "We play together and have fun."
 msgstr ""
 
-#: src/socialaberattelser/main.py:44
+#: src/socialaberattelser/main.py:45
 msgid "Now I have a new friend!"
 msgstr ""
 
-#: src/socialaberattelser/main.py:134
-msgid "About Social Stories"
-msgstr ""
-
-#: src/socialaberattelser/main.py:135
-msgid "Quit"
-msgstr ""
-
-#: src/socialaberattelser/main.py:139
+#: src/socialaberattelser/main.py:140
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/socialaberattelser/main.py:152 src/socialaberattelser/main.py:244
-msgid "New Story"
-msgstr ""
-
-#: src/socialaberattelser/main.py:192
+#: src/socialaberattelser/main.py:193
 msgid "Previous"
 msgstr ""
 
-#: src/socialaberattelser/main.py:196
+#: src/socialaberattelser/main.py:197
 msgid "Next"
 msgstr ""
 
-#: src/socialaberattelser/main.py:212
-#, python-format
-msgid "%d steps"
-msgstr ""
-
-#: src/socialaberattelser/main.py:228
+#: src/socialaberattelser/main.py:229
 #, python-format
 msgid "Step %d of %d"
 msgstr ""
 
-#: src/socialaberattelser/main.py:244
+#: src/socialaberattelser/main.py:245
 msgid "Enter story title:"
 msgstr ""
 
-#: src/socialaberattelser/main.py:245
+#: src/socialaberattelser/main.py:246
 msgid "e.g. Going to the Store"
 msgstr ""
 
-#: src/socialaberattelser/main.py:247
-msgid "Cancel"
-msgstr ""
-
-#: src/socialaberattelser/main.py:248
+#: src/socialaberattelser/main.py:249
 msgid "Add"
 msgstr ""
 
-#: src/socialaberattelser/main.py:253
+#: src/socialaberattelser/main.py:254
 msgid "First step..."
 msgstr ""
 
-#: src/socialaberattelser/main.py:283
+#: src/socialaberattelser/main.py:284
 msgid "Welcome"
 msgstr ""
 
-#: src/socialaberattelser/main.py:289
+#: src/socialaberattelser/main.py:290
 msgid "Welcome to Social Stories"
 msgstr ""
 
-#: src/socialaberattelser/main.py:291
+#: src/socialaberattelser/main.py:292
 msgid ""
 "Step-by-step social stories for everyday situations.\n"
 "\n"
@@ -186,6 +360,6 @@ msgid ""
 "✓ Helps with social understanding"
 msgstr ""
 
-#: src/socialaberattelser/main.py:294
+#: src/socialaberattelser/main.py:295
 msgid "Get Started"
 msgstr ""
