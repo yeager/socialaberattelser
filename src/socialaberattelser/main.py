@@ -100,14 +100,14 @@ class StoryApp(Adw.Application):
             self.add_action(a)
             if accel: self.set_accels_for_action(f"app.{name}", [accel])
 
-    def _on_about(self, *_):
+    def _on_about(self, *_args):
         d = Adw.AboutDialog(application_name=_("Social Stories"), application_icon="socialaberattelser",
             version=__version__, developer_name="Daniel Nylander", website="https://www.autismappar.se",
             license_type=Gtk.License.GPL_3_0, developers=["Daniel Nylander"],
             copyright="\u00a9 2026 Daniel Nylander")
         d.present(self.props.active_window)
 
-    def _on_export(self, *_):
+    def _on_export(self, *_args):
         w = self.props.active_window
         if w: w.do_export()
 
@@ -229,18 +229,18 @@ class StoryWindow(Adw.ApplicationWindow):
         self.prev_btn.set_sensitive(self.current_step > 0)
         self.next_btn.set_sensitive(self.current_step < len(story["steps"]) - 1)
 
-    def _prev_step(self, *_):
+    def _prev_step(self, *_args):
         if self.current_step > 0:
             self.current_step -= 1
             self._show_step()
 
-    def _next_step(self, *_):
+    def _next_step(self, *_args):
         story = self.stories[self.current_story]
         if self.current_step < len(story["steps"]) - 1:
             self.current_step += 1
             self._show_step()
 
-    def _on_new_story(self, *_):
+    def _on_new_story(self, *_args):
         d = Adw.MessageDialog(transient_for=self, heading=_("New Story"), body=_("Enter story title:"))
         entry = Gtk.Entry(placeholder_text=_("e.g. Going to the Store"))
         d.set_extra_child(entry)
@@ -264,7 +264,7 @@ class StoryWindow(Adw.ApplicationWindow):
         export_csv(data, os.path.join(CONFIG_DIR, f"export_{ts}.csv"))
         export_json(data, os.path.join(CONFIG_DIR, f"export_{ts}.json"))
 
-    def _toggle_theme(self, *_):
+    def _toggle_theme(self, *_args):
         mgr = Adw.StyleManager.get_default()
         mgr.set_color_scheme(Adw.ColorScheme.FORCE_LIGHT if mgr.get_dark() else Adw.ColorScheme.FORCE_DARK)
 
