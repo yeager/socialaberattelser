@@ -1,12 +1,12 @@
-# Sociala berättelser
+# Social Stories
 
-Skapa och läs sociala berättelser steg för steg.
+Create and read step-by-step social stories.
 
-GTK4/Adwaita · Python · v0.1.5 · 41 översättningsbara strängar
+GTK4/Adwaita · Python · v0.1.5 · 41 translatable strings
 
-Del av [Autismappar](https://autismappar.se) — fria verktyg för barn med autism, språkstörning och ADHD.
+Part of [Autismappar](https://autismappar.se) — free tools for children with autism, language disorders and ADHD.
 
-## Installation
+## Install
 
 ### Ubuntu / Debian
 ```bash
@@ -20,10 +20,10 @@ sudo dnf install socialaberattelser
 ```
 Repo: [yeager/rpm-repo](https://github.com/yeager/rpm-repo)
 
-## Översättning
+## Translation
 
-Översätts via [Transifex](https://app.transifex.com/danielnylander/socialaberattelser/). 11 språk.
+Translated via [Transifex](https://app.transifex.com/danielnylander/socialaberattelser/). 11 languages.
 
-## Licens
+## License
 
 GPL-3.0-or-later · Daniel Nylander <daniel@danielnylander.se>
