@@ -174,11 +174,11 @@ msgstr "Första steget..."
 
 #: src/socialaberattelser/main.py:283
 msgid "Welcome"
-msgstr ""
+msgstr "Välkommen"
 
 #: src/socialaberattelser/main.py:289
 msgid "Welcome to Social Stories"
-msgstr ""
+msgstr "Välkommen till Sociala berättelser"
 
 #: src/socialaberattelser/main.py:291
 msgid ""
@@ -189,7 +189,13 @@ msgid ""
 "✓ Create custom stories\n"
 "✓ Helps with social understanding"
 msgstr ""
+"Steg-för-steg-berättelser för vardagliga situationer.\n"
+"\n"
+"✓ Visuella steg-för-steg-guider\n"
+"✓ Vanliga sociala scenarier\n"
+"✓ Skapa anpassade berättelser\n"
+"✓ Hjälper till med social förståelse"
 
 #: src/socialaberattelser/main.py:294
 msgid "Get Started"
-msgstr ""
+msgstr "Kom igång"
