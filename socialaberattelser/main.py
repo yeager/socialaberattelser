@@ -150,7 +150,7 @@ class MainWindow(Adw.ApplicationWindow):
             return True
         return False
 
-    def _on_export(self, *_):
+    def _on_export(self, *_args):
         all_stories = TEMPLATES + self.stories
         items = []
         for s in all_stories:
@@ -276,7 +276,7 @@ class MainWindow(Adw.ApplicationWindow):
         self.current_step += delta
         self._show_step()
 
-    def _on_new_story(self, *_):
+    def _on_new_story(self, *_args):
         dialog = Adw.AlertDialog.new(_("New Story"), _("Enter a title for your story:"))
         entry = Gtk.Entry()
         entry.set_placeholder_text(_("Story title"))
@@ -302,7 +302,7 @@ class App(Adw.Application):
         super().__init__(application_id=APP_ID)
         self.connect("activate", self._on_activate)
 
-    def _on_activate(self, *_):
+    def _on_activate(self, *_args):
         win = self.props.active_window or MainWindow(self)
         a = Gio.SimpleAction(name="about")
         a.connect("activate", self._on_about)
@@ -313,7 +313,7 @@ class App(Adw.Application):
         self.set_accels_for_action("app.quit", ["<Control>q"])
         win.present()
 
-    def _on_about(self, *_):
+    def _on_about(self, *_args):
         dialog = Adw.AboutDialog(
             application_name=_("Social Stories"),
             application_icon=APP_ID,
