@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 20:53+0100\n"
+"POT-Creation-Date: 2026-02-22 06:01+0100\n"
 "PO-Revision-Date: 2026-02-21 15:40+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305148/sv/)\n"
@@ -21,152 +21,175 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/export.py:11 src/main.py:80 src/main.py:93 src/main.py:105
+#: src/socialaberattelser/export.py:11 src/socialaberattelser/main.py:104
+#: src/socialaberattelser/main.py:117 src/socialaberattelser/main.py:129
 msgid "Social Stories"
 msgstr "Sociala berättelser"
 
-#: src/export.py:23
+#: src/socialaberattelser/export.py:23
 msgid "Date"
 msgstr "Datum"
 
-#: src/export.py:23
+#: src/socialaberattelser/export.py:23
 msgid "Details"
 msgstr "Detaljer"
 
-#: src/export.py:23
+#: src/socialaberattelser/export.py:23
 msgid "Result"
 msgstr "Resultat"
 
-#: src/export.py:45 src/main.py:109
+#: src/socialaberattelser/export.py:45 src/socialaberattelser/main.py:133
 msgid "Export"
 msgstr "Exportera"
 
-#: src/main.py:23
+#: src/socialaberattelser/main.py:24
 msgid "Going to School"
 msgstr "Gå till skolan"
 
-#: src/main.py:24
+#: src/socialaberattelser/main.py:25
 msgid "I wake up in the morning."
 msgstr "Jag vaknar på morgonen."
 
-#: src/main.py:25
+#: src/socialaberattelser/main.py:26
 msgid "I get dressed and eat breakfast."
 msgstr "Jag klär på mig och äter frukost."
 
-#: src/main.py:26
+#: src/socialaberattelser/main.py:27
 msgid "I take my bag and go to school."
 msgstr "Jag tar min väska och går till skolan."
 
-#: src/main.py:27
+#: src/socialaberattelser/main.py:28
 msgid "At school, I say hello to my teacher."
 msgstr "I skolan hälsar jag på min lärare."
 
-#: src/main.py:28
+#: src/socialaberattelser/main.py:29
 msgid "I sit at my desk and listen."
 msgstr "Jag sitter vid mitt skrivbord och lyssnar."
 
-#: src/main.py:29
+#: src/socialaberattelser/main.py:30
 msgid "After school, I go home."
 msgstr "Efter skolan går jag hem."
 
-#: src/main.py:31
+#: src/socialaberattelser/main.py:32
 msgid "Visiting the Doctor"
 msgstr "Besök hos läkaren"
 
-#: src/main.py:32
+#: src/socialaberattelser/main.py:33
 msgid "Today I am going to the doctor."
 msgstr "Idag ska jag till läkaren."
 
-#: src/main.py:33
+#: src/socialaberattelser/main.py:34
 msgid "The doctor is a nice person who helps me stay healthy."
 msgstr "Läkaren är en trevlig person som hjälper mig att hålla mig frisk."
 
-#: src/main.py:34
+#: src/socialaberattelser/main.py:35
 msgid "The doctor might look in my ears and mouth."
 msgstr "Läkaren kan titta i mina öron och min mun."
 
-#: src/main.py:35
+#: src/socialaberattelser/main.py:36
 msgid "It might feel a little strange but it is okay."
 msgstr "Det kan kännas lite konstigt, men det är okej."
 
-#: src/main.py:36
+#: src/socialaberattelser/main.py:37
 msgid "When we are done, I can go home."
 msgstr "När vi är klara kan jag gå hem."
 
-#: src/main.py:38
+#: src/socialaberattelser/main.py:39
 msgid "Making a Friend"
 msgstr "Skaffa en vän"
 
-#: src/main.py:39
+#: src/socialaberattelser/main.py:40
 msgid "I see someone playing alone."
 msgstr "Jag ser någon som spelar ensam."
 
-#: src/main.py:40
+#: src/socialaberattelser/main.py:41
 msgid "I walk over and say hello."
 msgstr "Jag går fram och hälsar."
 
-#: src/main.py:41
+#: src/socialaberattelser/main.py:42
 msgid "I ask: Can I play with you?"
 msgstr "Jag frågar: Får jag leka med dig?"
 
-#: src/main.py:42
+#: src/socialaberattelser/main.py:43
 msgid "We play together and have fun."
 msgstr "Vi leker tillsammans och har kul."
 
-#: src/main.py:43
+#: src/socialaberattelser/main.py:44
 msgid "Now I have a new friend!"
 msgstr "Nu har jag en ny vän!"
 
-#: src/main.py:110
+#: src/socialaberattelser/main.py:134
 msgid "About Social Stories"
 msgstr "Om Sociala berättelser"
 
-#: src/main.py:111
+#: src/socialaberattelser/main.py:135
 msgid "Quit"
 msgstr "Avsluta"
 
-#: src/main.py:115
+#: src/socialaberattelser/main.py:139
 msgid "Toggle dark/light theme"
 msgstr "Växla mellan mörkt/ljus tema"
 
-#: src/main.py:128 src/main.py:220
+#: src/socialaberattelser/main.py:152 src/socialaberattelser/main.py:244
 msgid "New Story"
 msgstr "Ny berättelse"
 
-#: src/main.py:168
+#: src/socialaberattelser/main.py:192
 msgid "Previous"
 msgstr "Föregående"
 
-#: src/main.py:172
+#: src/socialaberattelser/main.py:196
 msgid "Next"
 msgstr "Nästa"
 
-#: src/main.py:188
+#: src/socialaberattelser/main.py:212
 #, python-format
 msgid "%d steps"
 msgstr "%d steg"
 
-#: src/main.py:204
+#: src/socialaberattelser/main.py:228
 #, python-format
 msgid "Step %d of %d"
 msgstr "Steg %d av %d"
 
-#: src/main.py:220
+#: src/socialaberattelser/main.py:244
 msgid "Enter story title:"
 msgstr "Ange berättelsens titel:"
 
-#: src/main.py:221
+#: src/socialaberattelser/main.py:245
 msgid "e.g. Going to the Store"
 msgstr "t.ex. Gå till affären"
 
-#: src/main.py:223
+#: src/socialaberattelser/main.py:247
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/main.py:224
+#: src/socialaberattelser/main.py:248
 msgid "Add"
 msgstr "Lägg till"
 
-#: src/main.py:229
+#: src/socialaberattelser/main.py:253
 msgid "First step..."
 msgstr "Första steget..."
+
+#: src/socialaberattelser/main.py:283
+msgid "Welcome"
+msgstr ""
+
+#: src/socialaberattelser/main.py:289
+msgid "Welcome to Social Stories"
+msgstr ""
+
+#: src/socialaberattelser/main.py:291
+msgid ""
+"Step-by-step social stories for everyday situations.\n"
+"\n"
+"✓ Visual step-by-step guides\n"
+"✓ Common social scenarios\n"
+"✓ Create custom stories\n"
+"✓ Helps with social understanding"
+msgstr ""
+
+#: src/socialaberattelser/main.py:294
+msgid "Get Started"
+msgstr ""
