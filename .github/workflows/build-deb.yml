@@ -30,32 +30,16 @@ jobs:
           mkdir -p "$DIR/usr/bin"
           mkdir -p "$DIR/usr/share/applications"
           cp src/socialaberattelser/*.py "$DIR/usr/lib/python3/dist-packages/socialaberattelser/"
-          # Compile translations
           for po in po/*.po; do
             [ -f "$po" ] || continue
             lang=$(basename "$po" .po)
             mkdir -p "$DIR/usr/share/locale/$lang/LC_MESSAGES"
             msgfmt "$po" -o "$DIR/usr/share/locale/$lang/LC_MESSAGES/socialaberattelser.mo"
           done
-          # Launcher
-          cat > "$DIR/usr/bin/socialaberattelser" << 'LAUNCHER'
-#!/usr/bin/env python3
-from socialaberattelser.main import main
-main()
-LAUNCHER
+          printf '#!/usr/bin/env python3\nfrom socialaberattelser.main import main\nmain()\n' > "$DIR/usr/bin/socialaberattelser"
           chmod 755 "$DIR/usr/bin/socialaberattelser"
-          # Desktop file
           [ -f "data/socialaberattelser.desktop" ] && cp "data/socialaberattelser.desktop" "$DIR/usr/share/applications/"
-          cat > "$DIR/DEBIAN/control" << CTRL
-Package: socialaberattelser
-Version: $VER
-Section: utils
-Priority: optional
-Architecture: all
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Description: socialaberattelser
-CTRL
+          printf 'Package: socialaberattelser\nVersion: %s\nSection: utils\nPriority: optional\nArchitecture: all\nDepends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1\nMaintainer: Daniel Nylander <daniel@danielnylander.se>\nDescription: Social stories for children\n' "$VER" > "$DIR/DEBIAN/control"
           dpkg-deb --build "$DIR"
       - name: Upload
         uses: softprops/action-gh-release@v2
