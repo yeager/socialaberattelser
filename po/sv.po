@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: socialaberattelser\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 17:04+0100\n"
+"POT-Creation-Date: 2026-02-23 11:03+0100\n"
 "PO-Revision-Date: 2026-02-21 15:40+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305148/sv/)\n"
@@ -21,211 +21,10 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: socialaberattelser/export.py:13 socialaberattelser/main.py:90
-#: socialaberattelser/main.py:158 socialaberattelser/main.py:167
-#: socialaberattelser/main.py:318 src/socialaberattelser/export.py:11
-#: src/socialaberattelser/main.py:105 src/socialaberattelser/main.py:118
-#: src/socialaberattelser/main.py:130
+#: src/socialaberattelser/export.py:11 src/socialaberattelser/main.py:105
+#: src/socialaberattelser/main.py:124 src/socialaberattelser/main.py:136
 msgid "Social Stories"
 msgstr "Sociala berättelser"
-
-#: socialaberattelser/export.py:95 src/socialaberattelser/export.py:45
-#: src/socialaberattelser/main.py:134
-msgid "Export"
-msgstr "Exportera"
-
-#: socialaberattelser/export.py:95
-msgid "Choose export format:"
-msgstr "Välj exportformat:"
-
-#: socialaberattelser/export.py:96 socialaberattelser/main.py:284
-#: src/socialaberattelser/main.py:248
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: socialaberattelser/export.py:97
-msgid "CSV"
-msgstr "CSV"
-
-#: socialaberattelser/export.py:98
-msgid "JSON"
-msgstr "JSON"
-
-#: socialaberattelser/export.py:99
-msgid "PDF"
-msgstr "PDF"
-
-#: socialaberattelser/export.py:111
-msgid "Save Export"
-msgstr "Spara export"
-
-#: socialaberattelser/export.py:132
-#, python-format
-msgid "Exported %s"
-msgstr "Exporterade %s"
-
-#: socialaberattelser/export.py:135
-#, python-format
-msgid "Export error: %s"
-msgstr "Exportfel: %s"
-
-#: socialaberattelser/main.py:34
-msgid "Going to the Dentist"
-msgstr "Gå till tandläkaren"
-
-#: socialaberattelser/main.py:36
-msgid "Today I am going to the dentist."
-msgstr "Idag ska jag gå till tandläkaren."
-
-#: socialaberattelser/main.py:37
-msgid "In the waiting room, I sit and wait for my turn."
-msgstr "I väntrummet sitter jag och väntar på min tur."
-
-#: socialaberattelser/main.py:38
-msgid "The dentist will look at my teeth."
-msgstr "Tandläkaren kommer att undersöka mina tänder."
-
-#: socialaberattelser/main.py:39
-msgid "I open my mouth wide."
-msgstr "Jag öppnar munnen på vid gavel."
-
-#: socialaberattelser/main.py:40
-msgid "It might feel strange but it doesn't hurt."
-msgstr "Det kan kännas konstigt, men det gör inte ont."
-
-#: socialaberattelser/main.py:41
-msgid "When it's done, I can be proud of myself!"
-msgstr "När det är klart kan jag vara stolt över mig själv!"
-
-#: socialaberattelser/main.py:45
-msgid "First Day of School"
-msgstr "Första skoldagen"
-
-#: socialaberattelser/main.py:47
-msgid "Today is my first day at a new school."
-msgstr "Idag är min första dag på en ny skola."
-
-#: socialaberattelser/main.py:48
-msgid "I will meet my new teacher."
-msgstr "Jag ska träffa min nya lärare."
-
-#: socialaberattelser/main.py:49
-msgid "There will be other children in my class."
-msgstr "Det kommer att finnas andra barn i min klass."
-
-#: socialaberattelser/main.py:50
-msgid "I can say hello and tell them my name."
-msgstr "Jag kan säga hej och berätta vad jag heter."
-
-#: socialaberattelser/main.py:51
-msgid "If I feel nervous, I can take a deep breath."
-msgstr "Om jag känner mig nervös kan jag ta ett djupt andetag."
-
-#: socialaberattelser/main.py:52
-msgid "It's okay to feel a little scared. It will get better!"
-msgstr "Det är okej att känna sig lite rädd. Det kommer att bli bättre!"
-
-#: socialaberattelser/main.py:56
-msgid "Visiting the Supermarket"
-msgstr "Besök på mataffären"
-
-#: socialaberattelser/main.py:58
-msgid "We are going to the supermarket to buy food."
-msgstr "Vi ska till mataffären för att köpa mat."
-
-#: socialaberattelser/main.py:59
-msgid "There might be many people and loud sounds."
-msgstr "Det kan finnas många människor där och höga ljud."
-
-#: socialaberattelser/main.py:60
-msgid "I can stay close to my parent."
-msgstr "Jag kan vara nära mina föräldrar."
-
-#: socialaberattelser/main.py:61
-msgid "I can help by holding the shopping list."
-msgstr "Jag kan hjälpa till genom att hålla i inköpslistan."
-
-#: socialaberattelser/main.py:62
-msgid "If it gets too noisy, I can cover my ears or use headphones."
-msgstr ""
-"Om det blir för mycket ljud kan jag täcka för öronen eller använda hörlurar."
-
-#: socialaberattelser/main.py:63
-msgid "After shopping, we go home. Good job!"
-msgstr "Efter vi har handlat åker vi hem. Bra jobbat!"
-
-#: socialaberattelser/main.py:102
-msgid "Export (Ctrl+E)"
-msgstr "Exportera (Ctrl+E)"
-
-#: socialaberattelser/main.py:107 socialaberattelser/main.py:280
-#: src/socialaberattelser/main.py:153 src/socialaberattelser/main.py:245
-msgid "New Story"
-msgstr "Ny berättelse"
-
-#: socialaberattelser/main.py:108
-msgid "Export Stories"
-msgstr "Exportera berättelser"
-
-#: socialaberattelser/main.py:109 src/socialaberattelser/main.py:135
-msgid "About Social Stories"
-msgstr "Om Sociala berättelser"
-
-#: socialaberattelser/main.py:110 src/socialaberattelser/main.py:136
-msgid "Quit"
-msgstr "Avsluta"
-
-#: socialaberattelser/main.py:171
-msgid "Visual stories that help prepare for new situations"
-msgstr ""
-"Visuella berättelser som hjälper till att förbereda för nya situationer"
-
-#: socialaberattelser/main.py:183 socialaberattelser/main.py:192
-#: src/socialaberattelser/main.py:213
-#, python-format
-msgid "%d steps"
-msgstr "%d steg"
-
-#: socialaberattelser/main.py:200
-msgid "Create New Story"
-msgstr "Skapa en ny berättelse"
-
-#: socialaberattelser/main.py:216
-msgid "← Back to stories"
-msgstr "← Tillbaka till berättelser"
-
-#: socialaberattelser/main.py:243
-msgid "← Previous"
-msgstr "← Föregående"
-
-#: socialaberattelser/main.py:248
-msgid "Next →"
-msgstr "Nästa →"
-
-#: socialaberattelser/main.py:280
-msgid "Enter a title for your story:"
-msgstr "Ange en titel för din berättelse:"
-
-#: socialaberattelser/main.py:282
-msgid "Story title"
-msgstr "Berättelsens titel"
-
-#: socialaberattelser/main.py:285
-msgid "Create"
-msgstr "Skapa"
-
-#: socialaberattelser/main.py:293
-msgid "Step 1 — edit this text"
-msgstr "Steg 1 — redigera denna text"
-
-#: socialaberattelser/main.py:297
-#, python-format
-msgid "Story created: %s"
-msgstr "Berättelse skapad: %s"
-
-#: socialaberattelser/main.py:325
-msgid "Create and view social stories for children with autism"
-msgstr "Skapa och visa sociala berättelser för barn med autism"
 
 #: src/socialaberattelser/export.py:23
 msgid "Date"
@@ -238,6 +37,10 @@ msgstr "Detaljer"
 #: src/socialaberattelser/export.py:23
 msgid "Result"
 msgstr "Resultat"
+
+#: src/socialaberattelser/export.py:45 src/socialaberattelser/main.py:140
+msgid "Export"
+msgstr "Exportera"
 
 #: src/socialaberattelser/main.py:25
 msgid "Going to School"
@@ -315,48 +118,73 @@ msgstr "Vi leker tillsammans och har kul."
 msgid "Now I have a new friend!"
 msgstr "Nu har jag en ny vän!"
 
-#: src/socialaberattelser/main.py:140
+#: src/socialaberattelser/main.py:109 src/socialaberattelser/main.py:264
+msgid "Thanks to"
+msgstr "Tack till"
+
+#: src/socialaberattelser/main.py:141
+msgid "About Social Stories"
+msgstr "Om Sociala berättelser"
+
+#: src/socialaberattelser/main.py:142
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/socialaberattelser/main.py:146
 msgid "Toggle dark/light theme"
 msgstr "Växla mellan mörkt/ljus tema"
 
-#: src/socialaberattelser/main.py:193
+#: src/socialaberattelser/main.py:159 src/socialaberattelser/main.py:251
+msgid "New Story"
+msgstr "Ny berättelse"
+
+#: src/socialaberattelser/main.py:199
 msgid "Previous"
 msgstr "Föregående"
 
-#: src/socialaberattelser/main.py:197
+#: src/socialaberattelser/main.py:203
 msgid "Next"
 msgstr "Nästa"
 
-#: src/socialaberattelser/main.py:229
+#: src/socialaberattelser/main.py:219
+#, python-format
+msgid "%d steps"
+msgstr "%d steg"
+
+#: src/socialaberattelser/main.py:235
 #, python-format
 msgid "Step %d of %d"
 msgstr "Steg %d av %d"
 
-#: src/socialaberattelser/main.py:245
+#: src/socialaberattelser/main.py:251
 msgid "Enter story title:"
 msgstr "Ange berättelsens titel:"
 
-#: src/socialaberattelser/main.py:246
+#: src/socialaberattelser/main.py:252
 msgid "e.g. Going to the Store"
 msgstr "t.ex. Gå till affären"
 
-#: src/socialaberattelser/main.py:249
+#: src/socialaberattelser/main.py:254
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/socialaberattelser/main.py:255
 msgid "Add"
 msgstr "Lägg till"
 
-#: src/socialaberattelser/main.py:254
+#: src/socialaberattelser/main.py:260
 msgid "First step..."
 msgstr "Första steget..."
 
-#: src/socialaberattelser/main.py:284
+#: src/socialaberattelser/main.py:296
 msgid "Welcome"
 msgstr "Välkommen"
 
-#: src/socialaberattelser/main.py:290
+#: src/socialaberattelser/main.py:302
 msgid "Welcome to Social Stories"
 msgstr "Välkommen till Sociala berättelser"
 
-#: src/socialaberattelser/main.py:292
+#: src/socialaberattelser/main.py:304
 msgid ""
 "Step-by-step social stories for everyday situations.\n"
 "\n"
@@ -372,6 +200,6 @@ msgstr ""
 "✓ Skapa anpassade berättelser\n"
 "✓ Hjälper till med social förståelse"
 
-#: src/socialaberattelser/main.py:295
+#: src/socialaberattelser/main.py:307
 msgid "Get Started"
 msgstr "Kom igång"
