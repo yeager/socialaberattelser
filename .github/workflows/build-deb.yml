@@ -39,6 +39,8 @@ jobs:
           printf '#!/usr/bin/env python3\nfrom socialaberattelser.main import main\nmain()\n' > "$DIR/usr/bin/socialaberattelser"
           chmod 755 "$DIR/usr/bin/socialaberattelser"
           [ -f "data/socialaberattelser.desktop" ] && cp "data/socialaberattelser.desktop" "$DIR/usr/share/applications/"
+          mkdir -p ${{github.workspace}}/deb-build/usr/share/icons/hicolor/scalable/apps/
+          cp ./data/icons/se.danielnylander.socialaberattelser.svg ${{github.workspace}}/deb-build/usr/share/icons/hicolor/scalable/apps/
           printf 'Package: socialaberattelser\nVersion: %s\nSection: utils\nPriority: optional\nArchitecture: all\nDepends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1\nMaintainer: Daniel Nylander <daniel@danielnylander.se>\nDescription: Social stories for children\n' "$VER" > "$DIR/DEBIAN/control"
           dpkg-deb --build "$DIR"
       - name: Upload
