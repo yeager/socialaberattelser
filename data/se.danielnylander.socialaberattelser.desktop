@@ -9,6 +9,6 @@ Exec=socialaberattelser
 Icon=se.danielnylander.socialaberattelser
 Terminal=false
 Type=Application
-Categories=GNOME;GTK;Utility;Accessibility;
+Categories=GNOME;GTK;Utility;Accessibility;Autismappar
 Keywords=social;stories;autism;communication;
 Keywords[sv]=sociala;berättelser;autism;kommunikation;
