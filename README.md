@@ -1,3 +1,5 @@
+> **⚠️ This app has been migrated to the Autismappar PWA at https://autismappar.se**
+
 # Sociala Berättelser
 
 Create and view social stories with images for autism support.
@@ -29,4 +31,3 @@ Daniel Nylander — [danielnylander.se](https://danielnylander.se)
 ![socialaberattelser (English)](screenshots/socialaberattelser_en.png)
 
 ![socialaberattelser (Svenska)](screenshots/socialaberattelser_sv.png)
-
